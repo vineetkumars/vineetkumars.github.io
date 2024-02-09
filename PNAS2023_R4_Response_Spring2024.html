@@ -147,15 +147,18 @@ class="cmmi-12">k</span>. That was the idea we had when we used the term &#8220;
            </li>
            <li class="itemize">
            <!--l. 72--><p class="noindent" >With regard to your point about the change in inversity with regard to size, we have explained
-           better  why  we  should  expect  this.  <span class="texthl"><span id="textcolor1">V:  Need  to  add  this  point  below  to  the  supplement.</span></span>  In
-           Figure S6, it is not just the size of the network that is changing, but the structure is changing.
-           Specifically, we keep the cliques constant and vary only the size of the single star network.
-           Thus, there are two aspects of the network that are changing. First is the size of the network.
-           Second is the proportion of the network that belongs to the star component. Thus, this figure is
-           not an appropriate one to infer anything about scale-invariance.
+           in more detail why we should expect inversity to vary. <span class="texthl"><span id="textcolor1">V: Need to add this point below to the
+           supplement.</span></span> In Figure S6, it is not just the size of the network that is changing, but the structure
+           is changing. Recall that the network is comprised of one star and 100 cliques. Specifically,
+           we fix both the number of cliques and the distribution of sizes of cliques, and <span 
+class="ptmri7t-x-x-120">vary only the</span>
+           <span 
+class="ptmri7t-x-x-120">size of the single star network</span>. Thus, there are two aspects of the network that are changing.
+           First is the size of the network. Second is the proportion of the network that belongs to the star
+           component. Thus, this figure is not an appropriate one to infer anything about scale-invariance.
            </li>
            <li class="itemize">
-           <!--l. 75--><p class="noindent" >We are wondering if might be easier to just avoid using the term &#8220;scale invariance&#8221; in case the
+           <!--l. 76--><p class="noindent" >We are wondering if might be easier to just avoid using the term &#8220;scale invariance&#8221; in case the
            above detail is not essential for the reader. Our sense is that this specific property of inversity,
            while interesting, is not central to the purpose of the paper.
            </li></ul>
@@ -168,7 +171,7 @@ class="ptmb7t-x-x-120">What is actually driving this metric and is there a subst
       metric. Nothing depends on the exact parameterization for the sorts of questions people ask of it.
       <br 
 class="newline" />
-      <!--l. 84--><p class="noindent" >For inversity you flip it: how similar is ego to the inverse of alter? And 1/deg(j) is non-linear, so (at least to
+      <!--l. 85--><p class="noindent" >For inversity you flip it: how similar is ego to the inverse of alter? And 1/deg(j) is non-linear, so (at least to
       me) not intuitive. The main difference between corr(deg(i),deg(j)) and corr(deg(i),1/deg(j)) is easily seen in
       a scatterplot. Consider a generalization of your figure 1, panel (a) where the network is a collection of
       cliques of different sizes. Here ranging from dyads (collections of degree=1) to (arbitrarily) 15 (degree=14).
@@ -177,15 +180,15 @@ class="newline" />
       deg(j), the score is not perfect (it&#8217;s -0.76). Now that lack-of-fit is not really informative in the natural
       correlation sense &#8211; we shouldn&#8217;t expect a linear association measure to capture a non-linear functional
       form.
-      <!--l. 90--><p class="noindent" >Now let&#8217;s just delete some of those middling cliques so that we no longer have the full range and see what
+      <!--l. 91--><p class="noindent" >Now let&#8217;s just delete some of those middling cliques so that we no longer have the full range and see what
       happens: The font is a little small (sorry about that) but the pattern is obvious: assortativity stays constant,
       and inversity ranges arbitrarily close to -1.0 depending on the mix of cliques included. This is, of course,
       implied by eq 4 &#8211; as the selection of cliques is affecting the moments of the degree distribution, which is
       what drives the score (and it must also drive assortativity, I&#8217;d think?). So is this a feature or a bug? Is there
       any substantive difference between these cases? The dominant feature is a collection of cliques. Inversity
+                                                                                                
+                                                                                                
       varies across the cases because a collection of 1/d cases contribute more of that curve the more
-                                                                                                
-                                                                                                
       complete the range of d included in the network. When there are only 2 classes of numbers
       (isolated dyads and a big clique), there are only two points on the plane, and the correlation is
       perfect. To get positive inversity, you need hubs and pendants. Then the scatter will have a lot of
@@ -203,7 +206,7 @@ class="cmr-12">1 </span>and at least some mass at <span
 class="cmmi-12">y </span><span 
 class="cmr-12">= 1 </span>(inverse degree of a pendant=1), creating a positive
       association.
-      <!--l. 105--><p class="noindent" >And again we can play the same sort of game where we limit the collection of stars to get arbitrarily close to
+      <!--l. 106--><p class="noindent" >And again we can play the same sort of game where we limit the collection of stars to get arbitrarily close to
       -1.0, though unlike the clique case here we also get variance in assortativity, so that seems a
       reasonable (if uninteresting) mapping, but again the issue is that the underlying feature here is that
       the graph needs many star-like substructures to generate a positive inversity. My instinct is
@@ -216,7 +219,7 @@ class="cmr-12">= 1 </span>(inverse degree of a pendant=1), creating a positive
       about 3000 real-life networks from different domains that I happen to have on hand, which
       includes coauthorship, adolescent networks, village networks and some sundry others. I get
       this:
-      <!--l. 120--><p class="noindent" >So inversity is not the same as assortativity, but darn that&#8217;s close (the R2 of a simple regression model is
+      <!--l. 121--><p class="noindent" >So inversity is not the same as assortativity, but darn that&#8217;s close (the R2 of a simple regression model is
       0.97). Color here is data source, so a lot of variation across types of networks. And you can see, for
       example, that there are cases where both have the same sign &#8211; right there around zero. The
       difference between the local mean and the global mean generally gets smaller the closer you
@@ -232,7 +235,7 @@ class="cmr-12">= 1 </span>(inverse degree of a pendant=1), creating a positive
       find).
            <ul class="itemize1">
            <li class="itemize">
-           <!--l. 135--><p class="noindent" ><span 
+           <!--l. 136--><p class="noindent" ><span 
 class="ptmb7t-x-x-120">Reply: </span><span class="texthl"><span id="textcolor2">V:We need to discuss this in detail.</span></span></li></ul>
       </dd><dt class="enumerate-enumitem">
    3. </dt><dd 
@@ -240,11 +243,11 @@ class="enumerate-enumitem">Some details on the text I noted as reading.
            <dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
        (a) </dt><dd 
 class="enumerate-enumitem">the last sentence of the abstract is redundant with the stuff above, strike one or the other.
+                                                                                                
+                                                                                                
                <ul class="itemize1">
                <li class="itemize">
-                                                                                                
-                                                                                                
-               <!--l. 142--><p class="noindent" ><span 
+               <!--l. 143--><p class="noindent" ><span 
 class="ptmb7t-x-x-120">Reply:  </span>Agree. We have updated the abstract to avoid this redundancy.</li></ul>
            </dd><dt class="enumerate-enumitem">
        (b) </dt><dd 
@@ -255,13 +258,13 @@ class="enumerate-enumitem">I would switch early from &#8220;friends&#8221; to &#
            &#8220;two-step neighbors&#8221; or &#8220;neighbors&#8217; neighbors.&#8221;
                <ul class="itemize1">
                <li class="itemize">
-               <!--l. 146--><p class="noindent" >Note there&#8217;s a natural confusion here in addition to the two forms you layout. I think most
+               <!--l. 147--><p class="noindent" >Note there&#8217;s a natural confusion here in addition to the two forms you layout. I think most
                people will not think of i naturally as being a neighbor&#8217;s neighbor. Of course they are, but
                friends-of-friends are not usually &#8220;me.&#8221; This is clear in figure S1, but perhaps not in the
                text at this point.</li></ul>
                <ul class="itemize1">
                <li class="itemize">
-               <!--l. 152--><p class="noindent" ><span 
+               <!--l. 153--><p class="noindent" ><span 
 class="ptmb7t-x-x-120">Reply:   </span>We agree that neighbors would be a more general and natural usage, given the
                wider applicability. We have used neighbor beyond the first paragraph of the main paper,
                but have retained the well-known term &#8220;friendship paradox,&#8221; rather than use a new term
@@ -272,7 +275,7 @@ class="enumerate-enumitem">Line 141 .. always holds for *non-regular* networks (
            think being clear about what class of graphs is better.
                <ul class="itemize1">
                <li class="itemize">
-               <!--l. 158--><p class="noindent" ><span 
+               <!--l. 159--><p class="noindent" ><span 
 class="ptmb7t-x-x-120">Reply:  </span>We agree, and have made the change suggested.</li></ul>
            </dd><dt class="enumerate-enumitem">
        (d) </dt><dd 
@@ -280,14 +283,14 @@ class="enumerate-enumitem">I&#8217;m not sure what the phrase &#8220;prove that 
            &#8220;helps&#8221;?
                <ul class="itemize1">
                <li class="itemize">
-               <!--l. 164--><p class="noindent" >In my sample, if global <span 
+               <!--l. 165--><p class="noindent" >In my sample, if global <span 
 class="cmmi-12">&#x003E; </span>local, then inversity is always negative. If local<span 
 class="cmmi-12">&#x003E;</span>global, there
                is also a small subset where inversity is negative. So perhaps &#8220;helps&#8221; means &#8220;is not quite
                certain&#8221;?</li></ul>
                <ul class="itemize1">
                <li class="itemize">
-               <!--l. 169--><p class="noindent" ><span 
+               <!--l. 170--><p class="noindent" ><span 
 class="ptmb7t-x-x-120">Reply:  </span>We replace &#8220;prove that the sign ... helps us determine&#8221; by &#8220;prove that the sign ...
                determines&#8221; since the value of inversity directly tells us which intervention is better. If local <span 
 class="cmmi-12">&#x003E;</span>
@@ -305,20 +308,20 @@ src="PNAS2023_R4_Response_Spring20240x.png" alt="&#x03BC;L  = &#x03BC;G + &#x03C
 " class="math-display" ><a 
  id="x1-3008r1"></a></div>
                </td><td class="equation-label">(1)</td></tr></table>
-               <!--l. 172--><p class="nopar" ></li></ul>
+               <!--l. 173--><p class="nopar" ></li></ul>
            </dd><dt class="enumerate-enumitem">
        (e) </dt><dd 
 class="enumerate-enumitem">Line 217, I think you&#8217;re missing an &#8220;is&#8221; somewhere there.
                <ul class="itemize1">
                <li class="itemize">
-               <!--l. 177--><p class="noindent" ><span 
+               <!--l. 178--><p class="noindent" ><span 
 class="ptmb7t-x-x-120">Reply:  </span>We have fixed this, by adding an &#8220;and&#8221; to the sentence.</li></ul>
            </dd><dt class="enumerate-enumitem">
        (f) </dt><dd 
 class="enumerate-enumitem">Line 249 &#8211; this sort of place replace friends with neighbors.
                <ul class="itemize1">
                <li class="itemize">
-               <!--l. 182--><p class="noindent" ><span 
+               <!--l. 183--><p class="noindent" ><span 
 class="ptmb7t-x-x-120">Reply:  </span>Agree.</li></ul>
            </dd><dt class="enumerate-enumitem">
        (g) </dt><dd 
@@ -329,7 +332,7 @@ class="enumerate-enumitem">Is there a better way to say &#8220;depends on the st
            parts.
                <ul class="itemize1">
                <li class="itemize">
-               <!--l. 191--><p class="noindent" ><span 
+               <!--l. 192--><p class="noindent" ><span 
 class="ptmb7t-x-x-120">Reply:  </span>We agree <span 
 class="ptmri7t-x-x-120">network topology </span>might be a useful way to indicate this and reduce this
                repetition. We only use the longer form when introducing this term. <span class="texthl"><span id="textcolor3">V:Need to do.</span></span></li></ul>
@@ -338,7 +341,7 @@ class="ptmri7t-x-x-120">network topology </span>might be a useful way to indicat
 class="enumerate-enumitem">Line 351; this first point seems redundant with 291.
                <ul class="itemize1">
                <li class="itemize">
-               <!--l. 196--><p class="noindent" ><span 
+               <!--l. 197--><p class="noindent" ><span 
 class="ptmb7t-x-x-120">Reply:   </span>We think it would help the reader to highlight the contrast, at the risk of mild
                repetition. The revised sentence reads: &#8220;First, we see that inversity and the local mean
                are highly sensitive to network structure (who is connected to whom), whereas the global
@@ -349,20 +352,20 @@ class="enumerate-enumitem">Again, stuff around line 392 is built on, seemingly, 
            are very similar. Ditto with the rank ordering &#8211; my sense is that when this is true, the
            networks either don&#8217;t look much like social networks we typically collect or are effectively
            equal.
+                                                                                                
+                                                                                                
                <ul class="itemize1">
                <li class="itemize">
-               <!--l. 204--><p class="noindent" ><span 
+               <!--l. 205--><p class="noindent" ><span 
 class="ptmb7t-x-x-120">Reply:  </span>We have added a caveat in the main paper that this would be an important thing
                for future research to examine. <span class="texthl"><span id="textcolor4">V: We probably need to discuss this point and figure out
                the best way to address.</span></span></li></ul>
-                                                                                                
-                                                                                                
            </dd><dt class="enumerate-enumitem">
        (j) </dt><dd 
 class="enumerate-enumitem">Line 504: you can&#8217;t, in practice, exclude isolates if you don&#8217;t know who is not connected.
                <ul class="itemize1">
                <li class="itemize">
-               <!--l. 209--><p class="noindent" ><span 
+               <!--l. 210--><p class="noindent" ><span 
 class="ptmb7t-x-x-120">Reply:  </span>By construction, the local and global strategies would exclude isolates, since they
                cannot be nominated by anyone. We account for the possibility of choosing an isolate in
                the implementation of seeding strategies detailed in Table 1.</li></ul>
@@ -373,25 +376,25 @@ class="enumerate-enumitem">Do you need a fixed proportion? Again, thinking pract
            be hard.
                <ul class="itemize1">
                <li class="itemize">
-               <!--l. 216--><p class="noindent" ><span 
+               <!--l. 217--><p class="noindent" ><span 
 class="ptmb7t-x-x-120">Reply:   </span>Yes, the mathematical equivalence to the global mean requires usage of a fixed
                proportion. We also detail this point you have highlighted with a caveat as follows. <span class="texthl"><span id="textcolor5">V: We
                should discuss how to caveat this in the main paper.</span></span></li></ul>
            </dd></dl>
       </dd></dl>
-<!--l. 223--><p class="noindent" ><span class="paragraphHead"><a 
+<!--l. 224--><p class="noindent" ><span class="paragraphHead"><a 
  id="x1-4000"></a><span 
 class="ptmb7t-x-x-120">Reviewer 2 Comments</span></span>
    Having reviewed the response to reviewers and the updated manuscript, I think the authors have done a good
 job in responding to the issues raised (and, particularly, why assortativity and inversity are related but distinct
 measures). I think the manuscript makes a very interesting contribution to the field, and the inversity measure is
 likely to trigger new work; I support publication.
-<!--l. 228--><p class="indent" >   <span 
+<!--l. 229--><p class="indent" >   <span 
 class="ptmbi7t-x-x-120">Response: </span><span 
 class="ptmri7t-x-x-120">We thank Reviewer 2 for the supportive comments at this stage. We look forward to seeing it in</span>
 <span 
 class="ptmri7t-x-x-120">print.</span>
-<!--l. 230--><p class="indent" >   ___________________________________________________________________________________________________________________________________________________________________
+<!--l. 231--><p class="indent" >   ___________________________________________________________________________________________________________________________________________________________________
                                                                                                 
                                                                                                 
     
