@@ -1,6 +1,6 @@
 Hi Adam,
 
-It was great to meet you during my visit to BC. Really enjoyed the interactive seminar given your expertise in visual research, I really like to idea of figuring out what are the fundamental factors of variation picked up by the ML algorithm and how they connect to more fundamental geometric constructs (edge detection and contrast etc. like you mention). These could allow richer variation in the generative space, something that would be very helpful to explore in the future.
+It was great to meet you during my visit to BC. Really enjoyed the interactive seminar given your expertise in visual research, I really like to idea of figuring out what are the fundamental factors of variation picked up by the ML algorithm and how they connect to more fundamental geometric constructs (edge detection and contrast etc. like you mention). These could allow richer and I think more principled variation in the generative space, something that would be very helpful to explore in the future.
 
 Enjoyed our lunch conversation too, and it seems like you have a really nice and collegial group, that's something to be very much appreciated. Trust you had a good post-camp experience with family, and look forward to having our paths cross in the near future.
 
