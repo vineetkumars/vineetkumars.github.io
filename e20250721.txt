@@ -1,0 +1,57 @@
+Hello Heather,
+
+Hope the summer is going well for you. I wanted to check in to explore the school's flexibility regarding my teaching.
+
+Ideally, I would like to have clarity on my next steps in the fall, and certainly well before Spring 2, 2026, since I'm scheduled to teach very heavily in that term. However, the upcoming year on the academic job market is looking much more complex and challenging than anticipated. And international options add more logistical complexity in preparing for the transition, both professionally and personally.
+
+Given this complex and uncertain landscape, I was wondering whether the school might allow me to forego my teaching in return for lower compensation. Senior colleagues at other schools have suggested that the practice of buying out teaching is not  uncommon in other schools. I thought I would be remiss if I did not check in with you on whether this could be a possible option at Yale SOM during my terminal year.
+
+Thank you for your kind consideration.
+
+Best Regards,
+Vineet
+
+
+
+_______________________________________________________________________
+
+Dear Naufel,
+
+I just got to India today, so sorry just seeing this. Totally agree, like Pradeep says, there is now a pretty substantial set of papers integrating newer types of data into our standard quantitative models.
+
+A few below that I found useful in addition to Shunyuan's work. In all of them, one step is to quantify something that was typically viewed earlier as qualitative: 
+
+1) Demand Estimation with Text and Image Data
+Giovanni Compiani, Ilya Morozov, Stephan Seiler
+https://arxiv.org/abs/2503.20711
+
+2) Shapes as Product Differentiation: Neural Network Embedding in the Analysis of Markets for Fonts
+Sukjin Han, Eric H. Schulman, Kristen Grauman, Santhosh Ramakrishnan
+https://arxiv.org/abs/2107.02739
+
+3) JMR has a call for papers for a special issue on new data, with some citations too.
+https://www.ama.org/2024/12/09/call-for-papers-journal-of-marketing-research-new-methods-for-the-future-of-marketing/
+
+Typically, in these methods, there is a tradeoff between interpretability and the richness of the underlying unstructured data that is captured. I had a slide summarizing this that I like, I'll find and share that with you tomorrow.
+
+Best,
+vineet
+
+
+_______________________________________________________________________
+
+
+
+
+
+_______________________________________________________________________
+
+
+
+
+_______________________________________________________________________
+
+
+
+
+
