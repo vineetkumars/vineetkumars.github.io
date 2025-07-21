@@ -32,7 +32,7 @@ https://arxiv.org/abs/2107.02739
 3) JMR has a call for papers for a special issue on new data, with some citations too.
 https://www.ama.org/2024/12/09/call-for-papers-journal-of-marketing-research-new-methods-for-the-future-of-marketing/
 
-Typically, in these methods, there is a tradeoff between interpretability and the richness of the underlying unstructured data that is captured. I had a slide summarizing this that I like, I'll find and share that with you tomorrow.
+Typically, in these methods, there is a tradeoff between interpretability and the richness of the underlying unstructured data that is captured. I had a slide summarizing this that I like, I'll find and share that with you soon.
 
 Best,
 vineet
