@@ -29,8 +29,14 @@ https://arxiv.org/abs/2503.20711
 Sukjin Han, Eric H. Schulman, Kristen Grauman, Santhosh Ramakrishnan
 https://arxiv.org/abs/2107.02739
 
-3) JMR has a call for papers for a special issue on new data, with some citations too.
-https://www.ama.org/2024/12/09/call-for-papers-journal-of-marketing-research-new-methods-for-the-future-of-marketing/
+3) Generative Interpretable Visual Design: Using Disentanglement for Visual Conjoint Analysis. My co-authors and I do this with images with conjoint, we are currently doing a follow up with market data on automobiles.
+Ankit Sisodia, Alex Burnap, and Vineet Kumar
+
+
+4) JMR had a special issue that might be interesting on this note.
+Special Issue: Marketing Insights from Multimedia Data,
+Volume 58 Issue 6, December 2021
+https://journals.sagepub.com/toc/mrja/58/6
 
 Typically, in these methods, there is a tradeoff between interpretability and the richness of the underlying unstructured data that is captured. I had a slide summarizing this that I like, I'll find and share that with you soon.
 
