@@ -1,0 +1,19 @@
+Dear Kristy,
+
+My CV is available here:
+https://vineetkumars.github.io/VineetKumarCV.pdf
+
+Title of Talk:
+Market Structure Mapping with Interpretable Visual Characteristics
+
+Abstract:
+The project focuses on understanding how visual design allows firms an opportunity to differentiate their products. Using data on automobiles from the UK, we first obtain disentangled visual characteristics, and then combine them with
+functional characteristics to visualize market structure maps. These maps are then used to obtain insights in understanding how the competitive positioning in the space of functional characteristics is different than the positioning in visual characteristics. We find insights at multiple levels of
+market analysis: segment (or submarket), brand and product. At the segment level, we show how overlapping segments separate when visual characteristics are added. At the brand level, we connect the visual characteristics to branding
+choices made by firms, and show how this differentiates their offerings. At the product level, we show how the closest competitor in functional characteristics is likely to be misleading, and show how visual characteristics should be incorporated in decisions. Overall, the research shows the value of visual characteristics and using it in conjunction with functional characteristics to help answer questions of importance to both researchers and practitioners.
+
+Note: The research is based on a method called disentaglement, an approach to obtain visual characteristics developed in the published background paper linked below. http://vineetkumars.github.io/Papers/GenerativeVisualDesign.pdf
+
+Thank you,
+Vineet
+
