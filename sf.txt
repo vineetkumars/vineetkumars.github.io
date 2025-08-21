@@ -1,0 +1,42 @@
+
+(Inbound) Boston to Singapore
+
+Flight 1 of 2
+
+Emirates EK238
+Boston Logan Intl. (BOS)
+11:05pm EDT Eastern Daylight Time
+Fri, Sep 26 
+Travel time: 12h 15m
+
+Dubai Intl. (DXB)
+Terminal 3
+7:20pm GST Gulf Standard Time
+Arrives Sat, Sep 27
+
+
+Flight 2 of 2
+Emirates EK314
+Dubai Intl. (DXB)
+9:00pm GST Gulf Standard Time
+Sat, Sep 27 
+
+Singapore Changi (SIN)
+Terminal 1
+8:35am SGT Singapore Standard Time
+Arrives Sun, Sep 28
+
+
+_________________________________________________________
+
+(Outbound) Singapore to Paris
+
+Tue 30 Sep 10:50 AM
+SIN Singapore, Changi
+Operated by:Air France
+AF0181 | Boeing 787-9
+Tue 30 Sep 6:10 PM
+CDG Paris, Paris-Charles de Gaulle airport
+
+
+
